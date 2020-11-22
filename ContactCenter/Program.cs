@@ -93,7 +93,7 @@ namespace ContactCenter
         {
             foreach (var daySessions in sessionsPerDay)
             {
-                Console.WriteLine($"{daySessions.Key} {daySessions.Value.MaximumNumberSessions}");
+                Console.WriteLine($"{daySessions.Key.ToShortDateString()} {daySessions.Value.MaximumNumberSessions}");
             }
         }
 
