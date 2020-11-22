@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ContactCenter": {
+      "commandName": "Project",
+      "commandLineArgs": "c:\\Temp\\test_data_onemonth.csv"
+    }
+  }
+}
